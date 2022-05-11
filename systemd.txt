@@ -1,0 +1,10 @@
+#Located /etc/systemd/system/kafka.service
+[Unit]
+Description=Kafka Consumer
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=/home/jgolds/env/bin/python /home/jgolds/git/data-engineering-project/consumer.py -f /home/jgolds/.confluent/librdkafka.config -t data_project
+[Install]
+WantedBy=multi-user.target

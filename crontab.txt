@@ -1,0 +1,1 @@
+0 19 * * * /home/jgolds/env/bin/python /home/jgolds/git/data-engineering-project/producer.py -f ~/.confluent/librdkafka.config -t data_project
