@@ -14,3 +14,8 @@ trips2.csv
 consumer2.py
 data2.py
 __pycache__/
+data.geojson
+data2.geojson
+data2.tsv
+load3.py
+data.tsv
